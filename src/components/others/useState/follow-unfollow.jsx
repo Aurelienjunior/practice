@@ -40,7 +40,7 @@ const FollowUnfollowApp = () => {
       <h1 className="text-2xl font-bold">Follow Unfollow App</h1>
       <p className="text-gray-700">Click the button to follow or unfollow</p>
 
-      <div className=" w-full border-black flex flex-row gap-5 overflow-x-auto ">
+      <div className=" w-full border-black flex justify-center items-center p-4 flex-row gap-5 overflow-x-auto ">
         {accountInfos.map((account, index) => (
           <div
             key={index}

@@ -2,6 +2,7 @@ import React from 'react';
 import CounterApp from '../others/useState/counter-app';
 import HideShowApp from '../others/useState/hide-show';
 import FollowUnfollowApp from '../others/useState/follow-unfollow';
+import InputFieldTextDisplay from '../others/useState/input-field-text-display';
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <CounterApp />
       <HideShowApp />
       <FollowUnfollowApp />
+      <InputFieldTextDisplay />
     </div>
   );
 };
