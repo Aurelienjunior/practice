@@ -3,6 +3,7 @@ import CounterApp from '../others/useState/counter-app';
 import HideShowApp from '../others/useState/hide-show';
 import FollowUnfollowApp from '../others/useState/follow-unfollow';
 import InputFieldTextDisplay from '../others/useState/input-field-text-display';
+import CountNumberOfCLick from '../others/useState/count-number-of-clicks';
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <HideShowApp />
       <FollowUnfollowApp />
       <InputFieldTextDisplay />
+      <CountNumberOfCLick />
     </div>
   );
 };
