@@ -36,15 +36,15 @@ const FollowUnfollowApp = () => {
   };
 
   return (
-    <div className="flex flex-col gap-5 justify-center items-center h-screen bg-green-100">
+    <div className=" w-full flex flex-col gap-5 justify-center items-center h-screen bg-green-100">
       <h1 className="text-2xl font-bold">Follow Unfollow App</h1>
       <p className="text-gray-700">Click the button to follow or unfollow</p>
 
-      <div className="flex gap-5">
+      <div className=" w-full border-black flex flex-row gap-5 overflow-x-auto ">
         {accountInfos.map((account, index) => (
           <div
             key={index}
-            className="flex flex-col gap-3 items-center p-3 w-[250px] h-[250px] bg-white rounded-4xl "
+            className="flex flex-col gap-3 items-center shrink-0 p-3 w-[250px] h-[250px] bg-white rounded-4xl  "
           >
             <div className="w-[100px] h-[100px] flex justify-center items-center text-amber-200 rounded-full border border-dashed ">
               <p className="text-4xl font-bold text-center">{account.sigle}</p>
