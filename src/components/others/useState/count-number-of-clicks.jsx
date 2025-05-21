@@ -5,7 +5,7 @@ const CountNumberOfCLick = () => {
 
   const handleClick = () => {
     setCount(count + 1);
-    console.log(count);
+    // console.log(count);
   };
   const handleReset = () => {
     setCount(0);
