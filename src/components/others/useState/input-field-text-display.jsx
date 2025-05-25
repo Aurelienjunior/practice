@@ -19,8 +19,8 @@ const InputFieldTextDisplay = () => {
         className=" border border-black p-2 px-10 rounded-full outline-none "
       />
       {/* Display text tyyped in the above placeholder */}
-      <div className=" bg-[#ffffffb7] md:w-[500px] text-center p-3 italic cursor-not-allowed text-black w-[80%] rounded-2xl min-h-[200px]">
-        {text}
+      <div className=" bg-[#ffffffb7] md:w-[500px] flex justify-center items-center text-center p-4 italic cursor-not-allowed text-black w-[80%] rounded-2xl min-h-[200px] ">
+        <p className=" w-full text-wrap ">{text}</p>
       </div>
     </div>
   );

@@ -31,7 +31,7 @@ const CounterApp = () => {
   };
 
   return (
-    <div className=" flex flex-col gap-5 justify-center items-center h-screen bg-red-100">
+    <div className=" flex flex-col gap-5 justify-center items-center h-screen border-y ">
       {/*  */}
       <h3 className=" text-2xl font-bold ">Counter App</h3>
       <button

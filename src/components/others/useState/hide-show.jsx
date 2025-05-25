@@ -14,7 +14,7 @@ const HideShowApp = () => {
     console.log('hide');
   };
   return (
-    <div className=" flex flex-col gap-5 justify-center items-center h-screen bg-blue-100 ">
+    <div className=" flex flex-col gap-5 justify-center items-center h-screen border-y ">
       <h1 className=" text-2xl font-bold ">Hide Show App</h1>
       <p className=" text-gray-700 ">Click the button to show or hide text</p>
       <div className=" flex gap-5 ">
