@@ -19,7 +19,7 @@ const HomePage = () => {
       {/* <CountNumberOfCLick /> */}
       {/* <BackgroundColorToggle /> */}
       {/* <DisableButton /> */}
-      <PasswordVisibility />
+      {/* <PasswordVisibility /> */}
     </div>
   );
 };
